@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name"></string>
+
+    <string-array name="pilih_hotel">
+        <item>Amaris Hotel / Malam Rp.331,000</item>
+        <item>Harris Hotel / Malam Rp.370,000</item>
+        <item>Aston Hotel / Malam Rp.276,000</item>
+        <item>POP! Hotel / Malam Rp.209,000</item>
+        <item>b Hotel Bali / Malam Rp.361,000</item>
+        <item>The Cakra Hotel / Malam Rp.425,000</item>
+    </string-array>
+</resources>

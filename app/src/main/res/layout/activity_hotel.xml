@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:background="@drawable/backgrnd"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".HotelActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Masukkan Nama Lengkap"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorWhite" />
+
+    <EditText
+        android:id="@+id/nama_pengguna"
+        android:layout_width="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:layout_weight="3.5"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:text="Masukkan Jenis Kelamin"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorWhite" />
+    <RadioGroup
+        android:id="@+id/radiojk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-Laki"
+            android:textColor="@color/colorWhite"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="228dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perempuan" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="440dp"
+        android:text="Jumlah Tiket"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorWhite" />
+    <SeekBar
+        android:id="@+id/seekBarTiket"
+        android:layout_width="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="460dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/textViewTiket"
+        android:layout_width="300dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorWhite"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text=""
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="170dp"
+        android:text="Pilih Hotel"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite" />
+
+    <Spinner
+        android:id="@+id/pilih_hotel"
+        android:layout_width="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/pilih_hotel" />
+    <TextView
+        android:id="@+id/hotel_user"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""/>
+
+    <EditText
+        android:id="@+id/masukkancekin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"/>
+    <Button
+        android:id="@+id/btnCheckin"
+        android:layout_width="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:text="Check-in"/>
+    <TextView
+        android:id="@+id/ViewDate"
+        android:layout_width="200dp"
+        android:text=""
+        android:hint="dd/mm/yy"
+        android:layout_marginTop="310dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/colorWhite"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/masukkancekout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="330dp"/>
+    <Button
+        android:id="@+id/btnCheckout"
+        android:layout_width="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:layout_height="wrap_content"
+        android:text="Check-Out"/>
+    <TextView
+        android:id="@+id/ViewDate2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="410dp"
+        android:hint="dd/mm/yy"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/colorWhite"/>
+    <Button
+        android:id="@+id/btnSelesai"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="kirimData"
+        android:text="SELESAI"/>
+
+
+</RelativeLayout>

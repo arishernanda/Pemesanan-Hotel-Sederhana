@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout2"
+    android:background="@drawable/bgapps"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textView2"
+        android:layout_width="207dp"
+        android:layout_height="59dp"
+        android:text="Selamat Datang"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+
+    <Button
+        android:id="@+id/buttonProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/logo_riwayat_kotak"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:onClick="kirimCariHotel"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Cari Hotel"
+        android:textSize="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:layout_marginTop="370dp" />
+
+
+    <Button
+        android:id="@+id/buttonBooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/logo_hotel_kotak"
+        android:layout_centerHorizontal="true"
+        android:onClick="kirimHotel"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="240dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="25dp"
+        android:text="Pesan Hotel"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/info"
+        android:onClick="kirimInfo"/>
+
+   <Button
+       android:layout_width="200dp"
+       android:layout_height="50dp"
+       android:text="KEMBALI"
+       android:textColor="@color/colorWhite"
+       android:background="@color/colorRed"
+       android:layout_centerHorizontal="true"
+       android:onClick="tombolKembali"
+       android:layout_marginTop="650dp"/>
+
+</RelativeLayout>

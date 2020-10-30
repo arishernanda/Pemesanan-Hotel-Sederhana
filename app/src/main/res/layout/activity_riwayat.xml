@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrnd"
+    tools:context=".RiwayatActivity">
+
+    <TextView
+        android:text="Hotel Berhasil di Pesan!"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:paddingLeft="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/showNama"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/showJK"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/showTiket"
+        android:textStyle="bold"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/showHotel"
+        android:textStyle="bold"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="110dp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/showCheckin"
+        android:textStyle="bold"
+        android:layout_marginTop="130dp"
+        android:paddingLeft="30dp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/showCheckout"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="30dp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+    <Button
+        android:id="@+id/tombolSimpan"
+        android:text="SAVE"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="650dp"
+        android:onClick="simpanData"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

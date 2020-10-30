@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/pilihan1"
+        android:title="CONTACT US"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/pilihan2"
+        android:title="ABOUT US"
+        app:showAsAction="never"/>
+</menu>
